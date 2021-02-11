@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
-import YouTube from "react-youtube";
 import axios from "./axios";
 import "./Row.css";
-// import YouTube from "react-youtube";
+import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
 function Row({ title, fetchUrl, isLargeRow }) {
     const [movies, setMovies] = useState([]);
-    const [trailerUrl, setTrailerUrl] = useState("")
+    const [trailerUrl, setTrailerUrl] = useState("");
 
   useEffect(() => {
     //   empty bracket below = run once and don't run agin
@@ -32,7 +31,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
   const handleClick = (movie) => {
     if (trailerUrl) {
-        setTrailerUrl('');
+        setTrailerUrl("");
     }else {
        movieTrailer(movie?.name || "") 
        .then(url => {
@@ -41,7 +40,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
        })
        .catch(error => console.log(error))
     }
-  }
+  };
 
   return (
     <div className="row">
