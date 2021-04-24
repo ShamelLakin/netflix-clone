@@ -36,7 +36,7 @@ function Banner() {
       }}
     >
       <div className="banner_contents">
-        {/* <tilt/> */}
+        
         <h1 className="banner_title">{movie?.title || movie?.name || movie?.original_name}</h1>
 
         <div classname="banner_buttons">
@@ -46,7 +46,7 @@ function Banner() {
         <h1 className="banner_description">
             {truncate(movie?.overview, 150)}
         </h1>
-        {/* <description/> */}
+        
       </div>
 
       <div className="banner--fadeBottom"/>
