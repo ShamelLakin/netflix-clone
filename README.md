@@ -10,10 +10,11 @@ This project is a replica of the Netflix App, it allows the user to search top r
 
 ## Features
 
-- JavaScript
-- react
+- JavaScript - client-side
+- React
 - TMDB - api requests
 - react-youtube
+- firebase - backend
 - Cross platform
 
 ## Lessons Learned
@@ -23,7 +24,7 @@ promise-based HTTP client that sports an easy-to-use API and can be used in both
 
 ## Deployment Version
 
-To deploy this project in browser
+To deploy this project in browser and give it a spin.
 
 Open [https://netflix-clone-17f20.firebaseapp.com/](https://netflix-clone-17f20.firebaseapp.com/) to view it in the browser.
 
