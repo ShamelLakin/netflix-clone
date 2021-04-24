@@ -38,7 +38,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd netfli-clone
+  cd netflix-clone
 ```
 
 Install dependencies
@@ -71,7 +71,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 #### Get item
 
 ```http
-  GET /api/items/${your-api-key}
+  GET /api/items/${`your-api-key`}
 ```
 
 | Parameter | Type     | Description                       |
