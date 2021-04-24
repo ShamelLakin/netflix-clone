@@ -8,6 +8,19 @@ This project is a replica of the Netflix App, it allows the user to serach top r
 
 ![Alt Text](https://media.giphy.com/media/27beCzep4HaiW064Rx/giphy.gif)
 
+## Features
+
+- JavaScript
+- react
+- TMDB - api requests
+- react-youtube
+- Cross platform
+
+## Lessons Learned
+
+During this project i learned how to make api requests with `axios`
+promise-based HTTP client that sports an easy-to-use API and can be used in both the browser and Node. js. Making HTTP requests to fetch or save data.
+
 ## Deployment Version
 
 To deploy this project in browser
@@ -65,18 +78,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. `/trending/all/week?api_key=${API_KEY}&language=en-US` |
 
-## Features
 
-- JavaScript
-- react
-- TMDB - api requests
-- react-youtube
-- Cross platform
-
-## Lessons Learned
-
-During this project i learned how to make api requests with `axios`
-promise-based HTTP client that sports an easy-to-use API and can be used in both the browser and Node. js. Making HTTP requests to fetch or save data.
 
 
   
