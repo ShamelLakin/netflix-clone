@@ -71,7 +71,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 #### Get item
 
 ```http
-  GET /api/items/${`your-api-key`}
+  GET /api/items/${YOUR_API_KEY}
 ```
 
 | Parameter | Type     | Description                       |
