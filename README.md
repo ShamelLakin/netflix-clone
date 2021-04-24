@@ -71,12 +71,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 #### Get item
 
 ```http
-  GET /api/items/${id}
+  GET /api/items/${your-api-key}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. `/trending/all/week?api_key=${API_KEY}&language=en-US` |
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
