@@ -1,6 +1,6 @@
 # Netflix Clone
 
-This project is a replica of the Netflix App, it allows the user to serach top rated movies by genre.
+This project is a replica of the Netflix App, it allows the user to search top rated movies by genre.
 
 ![Logo](https://thewhitonline.com/wp-content/uploads/2021/03/Netflix.jpg)
 
